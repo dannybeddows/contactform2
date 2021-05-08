@@ -1,0 +1,38 @@
+<!-- responsive contact form 2 -->
+
+<head>
+    <link rel="stylesheet" href="form.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+<body></body>
+<div class="contact_container">
+<div class="contact_form">
+    <h1>Let's talk shop!</h1>
+    <form action="https://formspree.io/f/xdoyavqb"
+    method="POST">
+        <label class="name"><p>Name:</p>
+            <input type="text" id="name" required>
+        </label>
+
+        <label class="email"><p>Email:</p>
+            <input type="email" id="email" name="_replyto" required>
+        </label>
+
+        <label class="phone"><p>Phone:</p>
+            <input type="tel" id="phone" required>
+        </label>
+
+        <label message="message"><p>Message:</p>
+            <textarea name="message" id="message" rows="7" required></textarea>
+        </label>
+
+        <input type="hidden" name="_subject" value="Contact from DBeddows Portfolio" />
+
+        <input class="contact_button" type="submit" value="SEND">
+    </form>
+
+    <button id="close">
+    <i class="icon-remove-circle icon-4x"></i>
+</button>
+</div>
+</body>
